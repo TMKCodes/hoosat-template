@@ -8,7 +8,6 @@ Hoosat Create is a full-stack server-side rendered (SSR) TypeScript React stack 
 - **Configured with Webpack:** The stack is pre-configured with Webpack for production builds, enabling efficient bundling, minification, and optimization of the code.
 - **Jest for Unit Testing:** Hoosat Create comes with Jest, a popular JavaScript testing framework, to facilitate unit testing for your application components.
 - **Example Components and Routes:** The stack includes pre-built example components and routes, providing a starting point for building your application.
-- **Optional Hoosat UI React Component Library:** As an optional dependency, Hoosat Create offers the Hoosat UI React component library, which you can use to enhance your application's user interface with pre-designed UI components.
 
 
 ## Requirements

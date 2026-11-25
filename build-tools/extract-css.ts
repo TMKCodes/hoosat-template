@@ -19,17 +19,8 @@ export const extractCssFrom = (directoryPath: string): string => {
     if (currentPath === undefined) {
       return;
     }
-    const directoryContents = fs.readdirSync(currentPath).sort((a, b) => {
-      const aContainsHoosatUI = a.includes("HoosatUI");
-      const bContainsHoosatUI = b.includes("HoosatUI");
-      if (aContainsHoosatUI && !bContainsHoosatUI) {
-        return -1;
-      } else if (!aContainsHoosatUI && bContainsHoosatUI) {
-        return 1;
-      } else {
-        return a.localeCompare(b);
-      }
-    });
+    // Alphabetical order, so the order of the merged CSS is predictable: name files like 00-tokens.css to control it.
+    const directoryContents = fs.readdirSync(currentPath).sort((a, b) => a.localeCompare(b));
     for (const item of directoryContents) {
       const itemPath = path.join(currentPath, item);
       const itemStat = fs.statSync(itemPath);
