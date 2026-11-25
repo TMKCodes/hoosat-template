@@ -1,4 +1,4 @@
-Hoosat Create is a full-stack server-side rendered (SSR) TypeScript React stack designed to provide a seamless development experience with a clear separation between the client and server. Developed by Hoosat Oy, this stack offers a robust set of features to accelerate web application development.
+Hoosat Create is a full-stack server-side rendered (SSR) TypeScript React stack designed to provide a seamless development experience with a clear separation between the client and server. Developed by TMKCodes, this stack offers a robust set of features to accelerate web application development.
 
 ## Features
 

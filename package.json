@@ -2,7 +2,7 @@
   "type": "module",
   "name": "hoosat-create",
   "version": "1.0.0",
-  "description": "Hoosat Create is React SSR & CSR Stack made by Hoosat Oy",
+  "description": "Hoosat Create is React SSR & CSR Stack made by TMKCodes",
   "author": "",
   "license": "MIT License",
   "main": "index.js",

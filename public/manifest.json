@@ -1,7 +1,7 @@
 {
-  "name": "Hoosat Oy",
+  "name": "TMKCodes",
   "short_name": "Hoosat",
-  "description": "Hoosat Oy Web Application",
+  "description": "TMKCodes Web Application",
   "start_url": ".",
   "display": "standalone",
   "background_color": "#ffffff",
