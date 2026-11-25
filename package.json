@@ -7,11 +7,11 @@
   "license": "MIT License",
   "main": "index.js",
   "bugs": {
-    "url": "https://github.com/Hoosat-Oy/hoosat-template/issues"
+    "url": "https://github.com/TMKCodes/hoosat-template/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Hoosat-Oy/hoosat-template"
+    "url": "https://github.com/TMKCodes/hoosat-template"
   },
   "engines": {
     "node": "^22.22.2 || ^24.15.0 || >=26.0.0"
