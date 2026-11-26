@@ -34,6 +34,8 @@
     "declarationMap": true,
     // Enable all strict type checks
     "strict": true,
+    // swc compiles one file at a time, so reject code that needs the whole program to compile
+    "isolatedModules": true,
     // Require all code paths in a function to return a value
     "noImplicitReturns": true,
     // [Optional] Enable decorators

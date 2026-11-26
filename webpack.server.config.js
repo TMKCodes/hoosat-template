@@ -27,9 +27,11 @@ export default (_env, argv) => {
     module: {
       rules: [
         {
+          // swc compiles TypeScript and JSX with the settings in .swcrc. It does not type check,
+          // `npm run typecheck` (tsc) does that.
           test: /\.(ts|tsx)$/,
           exclude: /node_modules/,
-          use: ["ts-loader"],
+          use: ["swc-loader"],
         },
         {
           test: /\.css$/i,
